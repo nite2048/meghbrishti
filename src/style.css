@@ -1,0 +1,78 @@
+:root {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  color: #2f1b3d;
+  background: linear-gradient(180deg, #fff6fb, #f6f2ff);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+.birthday-site {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 3rem 1.25rem;
+  display: grid;
+  gap: 1.25rem;
+}
+
+.hero,
+.panel {
+  background: #ffffff;
+  border: 1px solid #eddff9;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 8px 24px rgba(120, 72, 160, 0.1);
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #8f53b8;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+h1,
+h2 {
+  margin: 0.5rem 0;
+  color: #431c61;
+}
+
+.lead {
+  margin: 0;
+}
+
+.actions {
+  margin-top: 1.25rem;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  border: 1px solid #cba7e8;
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  color: #5b2e7f;
+  font-weight: 600;
+}
+
+.btn.primary {
+  background: #7b36ad;
+  color: #fff;
+  border-color: #7b36ad;
+}
+
+ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
